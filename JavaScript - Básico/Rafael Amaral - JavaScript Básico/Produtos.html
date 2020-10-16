@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Produtos - Full Stack Eletro</title>
+        <link rel="stylesheet" href="CSS/Estilo.css">
+        <script src="JavaScript/funcoes.js"></script>
+    </head>
+
+    <body>
+
+        <nav class="menu menu a">
+            <a href="Index.html"><img src="Imagens/Full Stack Eletro Logo.jpg" alt="Full Stack Eletro" width="150px"></a>
+            <a href="Produtos.html">Produtos</a>
+            <a href="Loja.html">Nossas Lojas</a>
+            <a href="Contato.html">Contato</a>       
+        </nav>
+
+        <br><br>
+
+        <header>
+            <h2>Produtos</h2>
+        </header>
+        
+        <hr>
+
+        <section class="categorias">
+            <h3>Categorias</h3>
+            <ul>
+                <li onclick="exibir_todos()">Todos (12)</li>
+                <li onclick="exibir_categoria('geladeiras')">Geladeiras (3)</li>
+                <li onclick="exibir_categoria('fogoes')">Fogões (2)</li>
+                <li onclick="exibir_categoria('microondas')">Microondas (3)</li>
+                <li onclick="exibir_categoria('lavadoraderoupas')">Lavadora de Roupas (2)</li>
+                <li onclick="exibir_categoria('lavaloucas')">Lava-Louças (2)</li>
+            </ul>
+            <hr>
+        </section>
+
+
+        <section class="produtos">  
+            <div class="box_produto" id="geladeiras">
+
+                <img src="Imagens/Geladeira Brastemp Frost Free Duplex 462 Litros.png" width="120px" onclick="destaque(this)">
+                <br>
+                
+                <p class="nome_produto">Geladeira Brastemp Frost Free Duplex 462 Litros</p>
+                <hr>
+
+                <p class="preco_antigo">R$ 4.099,00</p>
+                <p class="preco_atual">R$ 3.599,00</p><br>
+                <button type="button" class="botao" onmouseover="porCima(this)" onmouseout="porFora(this)">COMPRAR</button>
+                <br><br>
+
+            </div>
+
+            <div class="box_produto" id="geladeiras">                
+
+                <img src="Imagens/Geladeira Consul Frost Free Duplex 340 Litros.png" width="120px" onclick="destaque(this)">
+                <br>
+                
+                <p class="nome_produto">Geladeira Consul Frost Free Duplex 340 Litros</p>
+                <hr>
+
+                <p class="preco_antigo">R$ 3.859,00</p>
+                <p class="preco_atual">R$ 3.699,00</p><br>
+                <button type="button" class="botao" onmouseover="porCima(this)" onmouseout="porFora(this)">COMPRAR</button>
+                <br><br>
+
+            </div> 
+            
+            <div class="box_produto" id="geladeiras">      
+
+                <img src="Imagens/Geladeira Panasonic Frost Free Duplex 425 Litros.jpg" width="120px" onclick="destaque(this)">
+                <br>
+                
+                <p class="nome_produto">Geladeira Panasonic Frost Free Duplex 425 Litros</p>
+                <hr>
+
+                <p class="preco_antigo">R$ 5.799,00</p>
+                <p class="preco_atual">R$ 4.689,00</p><br>
+                <button type="button" class="botao" onmouseover="porCima(this)" onmouseout="porFora(this)">COMPRAR</button>
+                <br><br>
+
+            </div>
+
+            <div class="box_produto" id="fogoes">         
+
+                <img src="Imagens/Fogão 4 Bocas Esmaltec com Forno Limpa Fácil.jpg" width="120px" onclick="destaque(this)">
+                <br>
+                
+                <p class="nome_produto">Fogão 4 Bocas Esmaltec com Forno Limpa Fácil</p>
+                <hr>
+
+                <p class="preco_antigo">R$ 589,00</p>
+                <p class="preco_atual">R$ 469,00</p><br>
+                <button type="button" class="botao" onmouseover="porCima(this)" onmouseout="porFora(this)">COMPRAR</button>
+                <br><br>
+
+            </div> 
+            
+            <div class="box_produto" id="fogoes">   
+
+                <img src="Imagens/Fogão 5 Bocas Brastemp Inox com Acendimento Automático.jpg" width="120px" onclick="destaque(this)">
+                <br>
+                
+                <p class="nome_produto">Fogão 5 Bocas Brastemp Inox</p>
+                <hr>
+
+                <p class="preco_antigo">R$ 5.799,00</p>
+                <p class="preco_atual">R$ 4.689,00</p><br>
+                <button type="button" class="botao" onmouseover="porCima(this)" onmouseout="porFora(this)">COMPRAR</button>
+                <br><br>
+
+            </div>
+
+            <div class="box_produto" id="microondas">       
+
+                <img src="Imagens/Microondas Midea 20 Litros.jpg" width="120px" onclick="destaque(this)">
+                <br>
+                
+                <p class="nome_produto">Microondas Midea 20 Litros</p>
+                <hr>
+
+                <p class="preco_antigo">R$ 499,00</p>
+                <p class="preco_atual">R$ 399,00</p><br>
+                <button type="button" class="botao" onmouseover="porCima(this)" onmouseout="porFora(this)">COMPRAR</button>
+                <br><br>
+
+            </div>
+
+            <div class="box_produto" id="microondas">       
+
+                <img src="Imagens/Microondas Electrolux 20 Litros.jpg" width="120px" onclick="destaque(this)">
+                <br>
+                
+                <p class="nome_produto">Microondas Electrolux 20 Litros</p>
+                <hr>
+
+                <p class="preco_antigo">R$ 599,00</p>
+                <p class="preco_atual">R$ 429,00</p><br>
+                <button type="button" class="botao" onmouseover="porCima(this)" onmouseout="porFora(this)">COMPRAR</button>
+                <br><br>
+
+            </div> 
+
+            <div class="box_produto" id="microondas">         
+
+                <img src="Imagens/Microondas Electrolux 34 Litros.jpg" width="120px" onclick="destaque(this)">
+                <br>
+                
+                <p class="nome_produto">Microondas Electrolux 20 Litros</p>
+                <hr>
+
+                <p class="preco_antigo">R$ 699,00</p>
+                <p class="preco_atual">R$ 548,90</p><br>
+                <button type="button" class="botao" onmouseover="porCima(this)" onmouseout="porFora(this)">COMPRAR</button>
+                <br><br>
+
+            </div>
+            
+            <div class="box_produto" id="lavadoraderoupas">    
+
+                <img src="Imagens/Lavadora de Roupas Consul 12kg.jpg" width="120px" onclick="destaque(this)">
+                <br>
+                
+                <p class="nome_produto">Lavadora de Roupas Consul 12kg</p>
+                <hr>
+
+                <p class="preco_antigo">R$ 1.699,00</p>
+                <p class="preco_atual">R$ 1.549,00</p><br>
+                <button type="button" class="botao" onmouseover="porCima(this)" onmouseout="porFora(this)">COMPRAR</button>
+                <br><br>
+
+            </div> 
+
+            <div class="box_produto" id="lavadoraderoupas">    
+        
+                <img src="Imagens/Lavadora de Roupas Brastemp 15kg.jpg" width="120px" onclick="destaque(this)">
+                <br>
+                
+                <p class="nome_produto">Lavadora de Roupas Brastemp 15kg</p>
+                <hr>
+
+                <p class="preco_antigo">R$ 2.699,00</p>
+                <p class="preco_atual">R$ 1.999,00</p><br>
+                <button type="button" class="botao" onmouseover="porCima(this)" onmouseout="porFora(this)">COMPRAR</button>
+                <br><br>
+
+            </div> 
+
+            <div class="box_produto" id="lavaloucas">    
+        
+
+                <img src="Imagens/Lava-Louças Electrolux 8 Serviços.jpg" width="120px" onclick="destaque(this)">
+                <br>
+                
+                <p class="nome_produto">Lava-Louças Electrolux 8 Serviços</p>
+                <hr>
+
+                <p class="preco_antigo">R$ 2.399,00</p>
+                <p class="preco_atual">R$ 2.199,00</p><br>
+                <button type="button" class="botao" onmouseover="porCima(this)" onmouseout="porFora(this)">COMPRAR</button>
+                <br><br>
+
+            </div>
+
+            <div class="box_produto" id="lavaloucas">
+
+                <img src="Imagens/Lava-Louças Electrolux 10 Serviços.jpg" width="120px" onclick="destaque(this)">
+                <br>
+                
+                <p class="nome_produto">Lava-Louças Electrolux 10 Serviços</p>
+                <hr>
+
+                <p class="preco_antigo">R$ 3.699,00</p>
+                <p class="preco_atual">R$ 2.799,00</p><br>
+                <button type="button" class="botao" onmouseover="porCima(this)" onmouseout="porFora(this)">COMPRAR</button>
+                <br><br>
+
+            </div>
+        </section>          
+                
+        <footer id="copyright">
+            <p id="formas_pagamento">Formas de Pagamento:</p>      
+            <img src="Imagens/Formas de Pagamento.jpg" alt="Formas de Pagamento">
+
+            <p>&copy; Rafael Amaral</p>
+        </footer>
+        
+    </body>
+
+</html>
