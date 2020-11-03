@@ -1,0 +1,115 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+#desconto {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+ }
+
+.menu {
+    background-color: silver;
+    width: 100%;
+}
+
+#formas_pagamento {
+    color:red;
+    font-weight: bold;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 100px;
+    font-weight: bolder;
+}
+
+
+.contato td {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    width: 50%;
+    text-align: center;
+}
+
+#copyright {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+
+.endereco h3 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.endereco p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.endereco td {
+    width: 33%;
+    text-align: center;
+}
+
+.categorias {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.nome_produto {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+.preco_antigo {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    text-decoration: line-through;
+}
+
+.preco_atual {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color: red;
+}
+
+.box_produto {
+    display: inline-table;
+    width: 24%;
+    text-align: center;
+    padding: 5px;
+}
+
+#fale_conosco {
+    border: 0; 
+    width: 100%;
+}
+
+.caixa_mensagem {
+    width: 400px;
+} 
+
+.tabela {
+    border: 0; 
+    width: 100%;
+}
+
+.botao {
+    background-color: red;
+    color: white;
+    font-weight: bolder;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+}
